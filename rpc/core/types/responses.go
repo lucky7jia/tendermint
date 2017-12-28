@@ -76,7 +76,7 @@ type ResultNetInfo struct {
 	Peers     []Peer   `json:"peers"`
 }
 
-type ResultDialSeeds struct {
+type ResultDialManualPeers struct {
 	Log string `json:"log"`
 }
 
